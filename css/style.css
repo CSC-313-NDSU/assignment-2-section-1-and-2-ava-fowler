@@ -1,0 +1,43 @@
+/* Overall background tint */
+body {
+    background-color: #ffe6f2; /* very light pink */
+}
+
+/* Section headers */
+h1, h2, h3 {
+    color: #cc0066; /* deep pink */
+}
+
+/* Navbar hover */
+nav a:hover {
+    color: #ff66a3 !important; /* bright pink */
+    transition: 0.3s;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff4d94;
+    border-color: #ff4d94;
+}
+
+.btn-primary:hover {
+    background-color: #e60073;
+    border-color: #e60073;
+}
+
+/* Cards */
+.card {
+    border: 2px solid #ffb3d9;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+    border-color: #ff66a3;
+}
+
+/* Carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(65%) sepia(20%) saturate(500%) hue-rotate(290deg);
+}
